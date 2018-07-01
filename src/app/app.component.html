@@ -1,4 +1,4 @@
-<app-sidebar></app-sidebar>
-<div>
+<app-sidebar *ngIf="router.url != '/'"></app-sidebar> 
+<div class="container-fluid">
   <router-outlet></router-outlet>
 </div>

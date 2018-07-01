@@ -40,3 +40,17 @@ npm install --save @ng-bootstrap/ng-bootstrap
 In angular.json
 "scripts": ["node_modules/jquery/dist/jquery.min.js",  "node_modules/bootstrap/dist/js/bootstrap.min.js"]
 
+## exclude nav from login
+
+in app.component.html
+<app-sidebar *ngIf="router.url != '/'"></app-sidebar>
+
+in app.component.ts
+import { Router, NavigationEnd} from '@angular/router';
+
+export class AppComponent {
+  title = 'app';
+  constructor(public router: Router){}
+}
+
+

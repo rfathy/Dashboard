@@ -10,6 +10,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { UsersComponent } from './users/users.component';
 import { DetailsComponent } from './details/details.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ChartsComponent } from './charts/charts.component';
+import { FormsComponent } from './forms/forms.component';
+import { TablesComponent } from './tables/tables.component';
+import { MapsComponent } from './maps/maps.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SidebarComponent,
     UsersComponent,
     DetailsComponent,
-    DashboardComponent
+    DashboardComponent,
+    ChartsComponent,
+    FormsComponent,
+    TablesComponent,
+    MapsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
