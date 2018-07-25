@@ -1,35 +1,38 @@
-<nav>
-	<ul>
-		<li>
-			<a routerLink="dashboard" [class.activated]="currentUrl == '/dashboard'">
-				<i class="material-icons">dashboard</i>
-			</a>
-		</li>
-		<li>
-			<a routerLink="users" [class.activated]="currentUrl == '/users'">
-				<i class="material-icons">supervised_user_circle</i>
-			</a>
-		</li>
-		
-		<li>
-			<a routerLink="charts" [class.activated]="currentUrl == '/charts'">
-				<i class="material-icons">graphic_eq</i>
-			</a>
-		</li>
-		<li>
-			<a routerLink="forms" [class.activated]="currentUrl == '/forms'">
-				<i class="material-icons">text_fields</i>
-			</a>
-		</li>
-		<li>
-			<a routerLink="tables" [class.activated]="currentUrl == '/tables'">
-				<i class="material-icons">table_chart</i>
-			</a>
-		</li>
-		<li>
-			<a routerLink="maps" [class.activated]="currentUrl == '/maps'">
-				<i class="material-icons">place</i>
-			</a>
-		</li>
-	</ul>
-</nav>
+
+<div class="col col-md-1 sidebar">
+	<nav>
+		<ul>
+			<li>
+				<a routerLink="dashboard" [class.activated]="currentUrl == '/dashboard'">
+					<i class="material-icons">dashboard</i>
+				</a>
+			</li>
+			<li>
+				<a routerLink="users" [class.activated]="currentUrl == '/users'">
+					<i class="material-icons">supervised_user_circle</i>
+				</a>
+			</li>
+			
+			<li>
+				<a routerLink="charts" [class.activated]="currentUrl == '/charts'">
+					<i class="material-icons">graphic_eq</i>
+				</a>
+			</li>
+			<li>
+				<a routerLink="forms" [class.activated]="currentUrl == '/forms'">
+					<i class="material-icons">text_fields</i>
+				</a>
+			</li>
+			<li>
+				<a routerLink="tables" [class.activated]="currentUrl == '/tables'">
+					<i class="material-icons">table_chart</i>
+				</a>
+			</li>
+			<li>
+				<a routerLink="maps" [class.activated]="currentUrl == '/maps'">
+					<i class="material-icons">place</i>
+				</a>
+			</li>
+		</ul>
+	</nav>
+</div>

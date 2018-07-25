@@ -15,6 +15,8 @@ import { FormsComponent } from './forms/forms.component';
 import { TablesComponent } from './tables/tables.component';
 import { MapsComponent } from './maps/maps.component';
 import { LoginComponent } from './login/login.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { LoginComponent } from './login/login.component';
     FormsComponent,
     TablesComponent,
     MapsComponent,
-    LoginComponent
+    LoginComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

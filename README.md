@@ -54,3 +54,12 @@ export class AppComponent {
 }
 
 
+## Serve
+
+$ ng build --base-href .
+copy dist/Dsshboard to C:\..\apache-tomcat-8.5.32\webapps
+
+on C:\..\apache-tomcat-8.5.32\bin run "startup"
+
+on browser
+http://localhost:9999/Dashboard/

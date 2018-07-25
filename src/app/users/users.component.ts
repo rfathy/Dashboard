@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { DataService } from '../data.service';
 import { Observable } from 'rxjs';
 import { trigger,style,transition,animate,keyframes,query,stagger } from '@angular/animations';
@@ -7,6 +7,7 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
 	selector: 'app-users',
 	templateUrl: './users.component.html',
 	styleUrls: ['./users.component.scss'],
+	encapsulation: ViewEncapsulation.None,
 	animations: [
 		trigger('listStagger', [
 			transition('* <=> *', [

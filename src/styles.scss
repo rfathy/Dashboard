@@ -1,3 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900');
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
+
+app-dashboard,
+app-users,
+app-charts,
+app-forms,
+app-tables,
+app-maps{
+	width:90%;
+}
