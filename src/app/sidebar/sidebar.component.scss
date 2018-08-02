@@ -2,6 +2,9 @@ app-sidebar{
     background: #f8f9fa;
     margin-top: -15px;
     padding-top: 20px;
+    max-width: 4% !important;
+    text-align: center;
+    min-height: 100vh !important;
 }
 .sidebar{
     margin-top: -15px;
@@ -13,7 +16,12 @@ app-sidebar{
 	ul{
 		li{
 			list-style: none;
-			margin-bottom: 15px;
+			margin-bottom: 22px;
+			a{
+				i{
+				    font-size: 22px;
+				}
+			}
 		}
 	}
 }

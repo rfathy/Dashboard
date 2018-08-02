@@ -7,6 +7,7 @@ import { trigger,style,transition,animate,keyframes,query,stagger } from '@angul
 	selector: 'app-users',
 	templateUrl: './users.component.html',
 	styleUrls: ['./users.component.scss'],
+  	host: {'class': 'col col-md-11'},
 	encapsulation: ViewEncapsulation.None,
 	animations: [
 		trigger('listStagger', [

@@ -1,36 +1,36 @@
 
-<div class="col col-md-1 sidebar">
+<div class="sidebar">
 	<nav>
 		<ul>
 			<li>
 				<a routerLink="dashboard" [class.activated]="currentUrl == '/dashboard'">
-					<i class="material-icons">dashboard</i>
+					<i class="fas fa-columns"></i>
 				</a>
 			</li>
 			<li>
 				<a routerLink="users" [class.activated]="currentUrl == '/users'">
-					<i class="material-icons">supervised_user_circle</i>
+					<i class="fas fa-user-friends"></i>
 				</a>
 			</li>
 			
 			<li>
 				<a routerLink="charts" [class.activated]="currentUrl == '/charts'">
-					<i class="material-icons">graphic_eq</i>
+					<i class="fas fa-chart-pie"></i>
 				</a>
 			</li>
 			<li>
 				<a routerLink="forms" [class.activated]="currentUrl == '/forms'">
-					<i class="material-icons">text_fields</i>
+					<i class="fas fa-file-alt"></i>
 				</a>
 			</li>
 			<li>
 				<a routerLink="tables" [class.activated]="currentUrl == '/tables'">
-					<i class="material-icons">table_chart</i>
+					<i class="fas fa-table"></i>
 				</a>
 			</li>
 			<li>
 				<a routerLink="maps" [class.activated]="currentUrl == '/maps'">
-					<i class="material-icons">place</i>
+					<i class="fas fa-map-marker-alt"></i>
 				</a>
 			</li>
 		</ul>

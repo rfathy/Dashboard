@@ -1,12 +1,11 @@
-<div class="col col-md-12">
-	<h1>User Details</h1>
-	<div *ngIf=user$>
-		<h4>{{ user$.name }}</h4>
 
-		<ul>
-			<li><strong>Username:</strong> {{ user$.username }}</li>
-			<li><strong>Email:</strong> {{ user$.email }}</li>
-			<li><strong>Phone:</strong> {{ user$.phone }}</li>
-		</ul>
-	</div>
+<h1>User Details</h1>
+<div *ngIf=user$>
+	<h4>{{ user$.name }}</h4>
+
+	<ul>
+		<li><strong>Username:</strong> {{ user$.username }}</li>
+		<li><strong>Email:</strong> {{ user$.email }}</li>
+		<li><strong>Phone:</strong> {{ user$.phone }}</li>
+	</ul>
 </div>

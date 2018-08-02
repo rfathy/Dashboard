@@ -4,6 +4,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   selector: 'app-maps',
   templateUrl: './maps.component.html',
   styleUrls: ['./maps.component.scss'],
+  host: {'class': 'col col-md-11'},
   encapsulation: ViewEncapsulation.None
 })
 export class MapsComponent implements OnInit {

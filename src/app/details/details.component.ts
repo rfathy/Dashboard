@@ -7,6 +7,7 @@ import { ActivatedRoute } from "@angular/router";
   selector: 'app-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.scss'],
+  host: {'class': 'col col-md-11'},
   encapsulation: ViewEncapsulation.None
 })
 export class DetailsComponent implements OnInit {

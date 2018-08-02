@@ -4,6 +4,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   selector: 'app-forms',
   templateUrl: './forms.component.html',
   styleUrls: ['./forms.component.scss'],
+  host: {'class': 'col col-md-11'},
   encapsulation: ViewEncapsulation.None
 })
 export class FormsComponent implements OnInit {

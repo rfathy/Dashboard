@@ -4,6 +4,10 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~font-awesome/css/font-awesome.css";
 
+
+body, html{
+	height: 100%;
+}
 app-dashboard,
 app-users,
 app-charts,

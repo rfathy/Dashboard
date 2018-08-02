@@ -6,6 +6,7 @@ import { Router, NavigationEnd} from '@angular/router'
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss'],
+  host: {'class': 'col col-md-1'},
   encapsulation: ViewEncapsulation.None
 })
 export class SidebarComponent implements OnInit {
